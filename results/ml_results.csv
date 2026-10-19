@@ -1,0 +1,61 @@
+id,message,label,label_name,group_id,case_type,split,support_score,sales_score,ml_pred,ml_p_sales
+M01,"Our CNC lathe stopped mid-cycle and shows spindle alarm 2031, please help.",0,support,S01,paraphrase,test,3.0,0.0,0,0.012
+M02,The lathe you installed last month keeps throwing spindle error 2031 and halts the job.,0,support,S01,paraphrase,test,2.0,1.0,0,0.155
+M03,The replacement bearings you shipped are the wrong size for our press.,0,support,S02,paraphrase,train,2.0,0.0,0,0.042
+M04,We received bearings for the hydraulic press but they don't fit - wrong part number.,0,support,S02,paraphrase,train,0.0,0.0,0,0.204
+M05,"I don't want to buy a new compressor, I need the one we have repaired.",0,support,S03,negation,train,1.0,0.0,0,0.11
+M06,Not looking for a new unit - our existing air compressor is overheating and needs a technician.,0,support,S03,negation,train,3.0,1.0,0,0.032
+M07,Our conveyor motor burned out again; once it's fixed we might also want a quote for a second line.,0,support,S04,mixed,train,3.0,2.0,0,0.045
+M08,"Before we talk about buying more robots, the welding robot we bought is misaligning every weld.",0,support,S04,mixed,train,0.0,1.0,1,0.705
+M09,Invoice 4471 charged us twice for the annual maintenance contract.,0,support,S05,paraphrase,train,3.0,0.0,0,0.012
+M10,"We were billed twice for our maintenance plan this quarter, please correct it.",0,support,S05,paraphrase,train,3.0,1.0,0,0.032
+M11,The PLC firmware update you pushed yesterday broke communication with our HMI panels.,0,support,S06,paraphrase,train,1.0,0.0,0,0.11
+M12,"Since your firmware update, our HMI screens can't connect to the PLC.",0,support,S06,paraphrase,train,2.0,0.0,0,0.042
+M13,The technician visit was scheduled for Tuesday but nobody showed up.,0,support,S07,paraphrase,test,1.0,0.0,0,0.11
+M14,Your service engineer missed the appointment at our plant this morning.,0,support,S07,paraphrase,test,2.0,0.0,0,0.042
+M15,Our laser cutter's cut quality dropped and the edges are burned after the last service.,0,support,S08,paraphrase,train,2.0,0.0,0,0.042
+M16,Edges come out scorched on the laser cutter since your team serviced it.,0,support,S08,paraphrase,train,2.0,0.0,0,0.042
+M17,How do I claim warranty on the gearbox that failed after 3 months?,0,support,S09,paraphrase,test,3.0,0.0,0,0.012
+M18,The gearbox failed within warranty; what's the process to get it replaced?,0,support,S09,paraphrase,test,3.0,0.0,0,0.012
+M19,The injection molding machine is leaking hydraulic oil from the clamp unit.,0,support,S10,paraphrase,test,1.0,0.0,0,0.11
+M20,There's an oil leak under the clamp of the molding machine we leased from you.,0,support,S10,paraphrase,test,1.0,1.0,0,0.435
+M21,"We already ordered the packaging line, but delivery is two weeks late - where is it?",0,support,S11,existing order (sales words),train,2.0,2.0,0,0.285
+M22,Our existing order for the packaging line hasn't arrived and tracking hasn't updated in 10 days.,0,support,S11,existing order (sales words),train,2.0,1.0,0,0.155
+M23,The vibration sensors on Pump 3 report readings that don't match our handheld meter.,0,support,S12,paraphrase,train,0.0,0.0,0,0.204
+M24,Sensor data in your monitoring dashboard is wrong for pump 3 - values differ from manual checks.,0,support,S12,paraphrase,train,2.0,0.0,0,0.042
+M25,Our operator login to the maintenance portal stopped working after the password reset.,0,support,S13,paraphrase,train,3.0,0.0,0,0.012
+M26,We can't access the predictive-maintenance portal anymore; the account is locked.,0,support,S13,paraphrase,train,3.0,0.0,0,0.012
+M27,"We like the new spindle package idea, but first our current spindle is making a grinding noise.",0,support,S14,mixed,train,1.0,2.0,1,0.715
+M28,"Interested in upgrades later, but right now the existing grinder spindle is vibrating badly.",0,support,S14,mixed,train,3.0,2.0,0,0.045
+M29,Please send someone for the chiller fault; the cooling at our site is down.,0,support,S15,paraphrase,test,2.0,0.0,0,0.042
+M30,The industrial chiller at our plant shows fault E7 and stopped cooling.,0,support,S15,paraphrase,test,2.0,0.0,0,0.042
+M31,Can you send a quote for two 5-axis CNC milling machines?,1,sales,L01,paraphrase,train,0.0,1.0,1,0.705
+M32,We'd like pricing on a pair of 5-axis mills for our new workshop.,1,sales,L01,paraphrase,train,0.0,2.0,1,0.921
+M33,What packages do you offer for predictive maintenance on 20 motors?,1,sales,L02,paraphrase,test,0.0,2.0,1,0.921
+M34,Looking for a predictive-maintenance subscription covering about 20 motors - what are the plans?,1,sales,L02,paraphrase,test,0.0,2.0,1,0.921
+M35,No issues with our current robots; we want to add a third cell.,1,sales,L03,negation,train,-1.0,2.0,1,0.976
+M36,Everything is working fine with our machines - we're expanding and need another robot cell.,1,sales,L03,negation,train,0.0,2.0,1,0.921
+M37,Do you sell collaborative robots for palletizing?,1,sales,L04,paraphrase,train,0.0,1.0,1,0.705
+M38,"Are cobots for end-of-line palletizing available from you, and at what price?",1,sales,L04,paraphrase,train,0.0,2.0,1,0.921
+M39,We are opening a second plant and need a full compressed-air system.,1,sales,L05,paraphrase,train,0.0,1.0,1,0.705
+M40,A new factory comes online next year; please propose a complete compressed-air installation.,1,sales,L05,paraphrase,train,0.0,3.0,1,0.967
+M41,Is there a discount if we buy 50 vibration sensors?,1,sales,L06,paraphrase,train,1.0,2.0,1,0.715
+M42,What's the bulk price for fifty wireless vibration sensors?,1,sales,L06,paraphrase,train,1.0,2.0,1,0.715
+M43,I'd like to upgrade our maintenance contract to the premium tier.,1,sales,L07,"existing customer, new purchase",test,0.0,1.0,1,0.705
+M44,Can we move from the basic to the premium service package starting next month?,1,sales,L07,"existing customer, new purchase",test,0.0,1.0,1,0.705
+M45,Please book a demo of your MES software for our production managers.,1,sales,L08,paraphrase,train,0.0,1.0,1,0.705
+M46,Our managers want a product demo of the manufacturing execution system.,1,sales,L08,paraphrase,train,0.0,1.0,1,0.705
+M47,What lead time do you have on a new 200-ton injection molding machine?,1,sales,L09,paraphrase,train,0.0,2.0,1,0.921
+M48,How soon could you deliver a 200-ton molding machine if we order this month?,1,sales,L09,paraphrase,train,0.0,2.0,1,0.921
+M49,Do you offer financing or leasing for a laser cutter?,1,sales,L10,paraphrase,train,0.0,3.0,1,0.967
+M50,Can we lease a fiber laser cutter instead of buying it outright?,1,sales,L10,paraphrase,train,0.0,2.0,1,0.921
+M51,Send me the catalog and price list for industrial chillers.,1,sales,L11,paraphrase,test,0.0,2.0,1,0.921
+M52,We need your latest chiller brochure with prices.,1,sales,L11,paraphrase,test,1.0,2.0,1,0.715
+M53,We don't have a problem with the press; we just want quotes for spare tooling to keep in stock.,1,sales,L12,negation,test,-1.0,1.0,1,0.846
+M54,Nothing is broken - we want to buy spare dies to keep on the shelf.,1,sales,L12,negation,test,-1.0,1.0,1,0.846
+M55,Can your team quote a turnkey packaging line for 120 packs per minute?,1,sales,L13,paraphrase,test,0.0,2.0,1,0.921
+M56,"Request for proposal: a complete packaging line, 120 packs per minute.",1,sales,L13,paraphrase,test,0.0,1.0,1,0.705
+M57,Are PLC programming training courses available for purchase?,1,sales,L14,paraphrase,train,0.0,3.0,1,0.967
+M58,We want to buy a PLC programming training package for 6 engineers.,1,sales,L14,paraphrase,train,1.0,3.0,1,0.81
+M59,We plan to buy machines next quarter; can you add remote monitoring to that quote?,1,sales,L15,paraphrase,train,0.0,4.0,1,0.975
+M60,"For next quarter's purchase, please include remote monitoring licenses in the quote.",1,sales,L15,paraphrase,train,0.0,3.0,1,0.967

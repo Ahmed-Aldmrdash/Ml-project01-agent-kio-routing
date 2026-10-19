@@ -1,0 +1,9 @@
+id,message,label,case_type
+X1,"Your quote said 4 weeks, but the CNC we bought in July still isn't commissioned.",0,sales words in a problem
+X2,"We're not unhappy with your service, we just want pricing for a second chiller.",1,negation
+X3,"The robot works great. How much would the vision upgrade cost?",1,paraphrase
+X4,"Machine down since Monday. Also send a quote for spare belts.",0,mixed
+X5,"We can't decide between your two compressors - which one is cheaper to run?",1,problem words in a purchase
+X6,"Is it normal that the new press makes a loud noise? We bought it last week.",0,problem with a new purchase
+X7,"Please quote the repair cost for our damaged gearbox.",0,mixed
+X8,"Order 20 more filters like last time.",1,repeat purchase

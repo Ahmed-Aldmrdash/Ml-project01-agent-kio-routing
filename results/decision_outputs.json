@@ -1,0 +1,16 @@
+{
+ "model": "claude-opus-5-5 (Anthropic), prompted with ROUTING_INSTRUCTIONS, one message per request, JSON output",
+ "date": "2026-10-19",
+ "outputs": {
+  "M01":"customer_service","M02":"customer_service","M03":"customer_service","M04":"customer_service","M05":"customer_service",
+  "M06":"customer_service","M07":"customer_service","M08":"customer_service","M09":"customer_service","M10":"customer_service",
+  "M11":"customer_service","M12":"customer_service","M13":"customer_service","M14":"customer_service","M15":"customer_service",
+  "M16":"customer_service","M17":"customer_service","M18":"customer_service","M19":"customer_service","M20":"customer_service",
+  "M21":"customer_service","M22":"customer_service","M23":"customer_service","M24":"customer_service","M25":"customer_service",
+  "M26":"customer_service","M27":"customer_service","M28":"customer_service","M29":"customer_service","M30":"customer_service",
+  "M31":"sales","M32":"sales","M33":"sales","M34":"sales","M35":"sales","M36":"sales","M37":"sales","M38":"sales","M39":"sales","M40":"sales",
+  "M41":"sales","M42":"sales","M43":"sales","M44":"sales","M45":"sales","M46":"sales","M47":"sales","M48":"sales","M49":"sales","M50":"sales",
+  "M51":"sales","M52":"sales","M53":"sales","M54":"sales","M55":"sales","M56":"sales","M57":"sales","M58":"sales","M59":"sales","M60":"sales",
+  "X1":"customer_service","X2":"sales","X3":"sales","X4":"customer_service","X5":"sales","X6":"customer_service","X7":"customer_service","X8":"sales"
+ }
+}
