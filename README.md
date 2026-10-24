@@ -35,6 +35,10 @@ docs/      ML_Project01_Agent_KIO_Routing.pptx (presentation), KIO_Project_Expla
 
 ## Run
 
+**Easiest:** open `KIO_Routing.ipynb` in Google Colab ([open in Colab](https://colab.research.google.com/github/Ahmed-Aldmrdash/ml-project01-agent-kio-routing/blob/main/KIO_Routing.ipynb)) and choose *Runtime → Run all*. It runs the full study, including the open-source decision model `facebook/bart-large-mnli`.
+
+Local scripts:
+
 ```bash
 pip install pandas scikit-learn matplotlib joblib
 cd src
